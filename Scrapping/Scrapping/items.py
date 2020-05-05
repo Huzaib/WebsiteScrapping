@@ -10,10 +10,7 @@ import scrapy
 
 class ScrappingItem(scrapy.Item):
     question = scrapy.Field()
-    answer = scrapy.Field()
-    trending_questions = scrapy.Field()
-    hottest_questions= scrapy.Field()
-    unanswered_questions = scrapy.Field()
+
 
 
 
